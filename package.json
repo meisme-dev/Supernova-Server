@@ -1,0 +1,30 @@
+{
+  "name": "twinkle-backend",
+  "version": "1.0.0",
+  "description": "Twinkle backend",
+  "main": "twinkle/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node twinkle/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/meisme-dev/twinkle-backend.git"
+  },
+  "keywords": [
+    "chat",
+    "encrypted",
+    "secure",
+    "twinkle"
+  ],
+  "author": "meisme-dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/meisme-dev/twinkle-backend/issues"
+  },
+  "homepage": "https://github.com/meisme-dev/twinkle-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "openpgp": "^5.0.0"
+  }
+}
